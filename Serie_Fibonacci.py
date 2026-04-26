@@ -1,8 +1,10 @@
-filas = int(input("¿Cuántas filas quieres? "))
+n = int(input("¿Cuántos términos deseas ver? "))
 
-for i in range(1, filas + 1):
-    for j in range(1, i + 1):
-     # el end hace que los números se queden en la misma fila
-        print(j, end=" ")
-        #por si algo esto es un salto de linea
-    print()
+primero = 0
+segundo = 1
+
+for i in range(n):
+    print(primero)
+    suma = primero + segundo
+    primero = segundo
+    segundo = suma
