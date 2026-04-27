@@ -1,9 +1,9 @@
-n = int(input("¿Cuántos términos deseas ver? "))
+num = int(input("¿Cuántos términos deseas ver? "))
 
 primero = 0
 segundo = 1
 
-for i in range(n):
+for i in range(num):
     print(primero)
     suma = primero + segundo
     primero = segundo
