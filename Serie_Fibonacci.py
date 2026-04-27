@@ -1,4 +1,4 @@
-num = int(input("¿Cuántos términos deseas ver? "))
+num = int(input("¿Cuántos términos deseas ver?:"))
 
 primero = 0
 segundo = 1
